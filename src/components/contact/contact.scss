@@ -1,0 +1,96 @@
+@import "../../global.scss";
+
+.contact {
+  background-color: whitesmoke;
+  display: flex;
+
+  .left {
+    right: 110px;
+    float: left;
+    overflow: hidden;
+    border-radius: 125px;
+    -webkit-box-shadow: 0 0 120px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 50px rgba(221, 31, 31, 0.3);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 2s ease;
+  }
+  .left:hover {
+    border-radius: 50%;
+  }
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    form {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      input {
+        width: 300px;
+        height: 30px;
+        font-size: 14px;
+
+        @include mobile {
+          width: 200px;
+          height: 20px;
+        }
+      }
+
+      textarea {
+        width: 300px;
+        height: 200px;
+        font-size: 14px;
+
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
+      }
+
+      button {
+        width: 150px;
+        height: 30px;
+        color: white;
+        background-color: #f55c47;
+        border: none;
+        border-radius: 10px;
+        font-weight: 500;
+        cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      span {
+        color: green;
+      }
+    }
+  }
+}
