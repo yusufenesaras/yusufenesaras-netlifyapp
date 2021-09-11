@@ -1,4 +1,4 @@
-# You can reach my portfolio site here: <a href="https://yusufenesaras.netlify.app">Click Here</a>
+# You can reach my portfolio site here: <a href="https://yusufenesaras.netlify.app" target="_blank">Click Here</a>
 
 # Getting Started with Create React App
 
