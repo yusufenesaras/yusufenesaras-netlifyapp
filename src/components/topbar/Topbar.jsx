@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import "./topbar.scss";
-import { GitHub, Mail, Book } from "@material-ui/icons";
+import { GitHub, Mail, Book,LinkedIn } from "@material-ui/icons";
 import { Button, Container } from "@material-ui/core";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -17,6 +17,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               <a href="https://github.com/yusufenesaras" target="_blank" style={{textDecoration:"none", color:"whitesmoke"}} >
               <GitHub className="icon" style={{ marginLeft: "7px" }} />
               Github
+              </a>
+            </Button>
+          </div>
+          <div className="itemContainer">
+            <Button variant="outlined" color="primary" size="large" style={{borderColor:"white"}}>
+              <a href="https://www.linkedin.com/in/yusufenesaras/" target="_blank"  style={{textDecoration:"none", color:"whitesmoke",borderRadius:"5px"}}>
+              <LinkedIn className="icon" style={{ marginLeft: "7px" }} />
+              LinkedIn
               </a>
             </Button>
           </div>

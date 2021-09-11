@@ -1,9 +1,14 @@
 @import "../../global.scss";
 
 .contact {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+  }
+
+  
   .left {
     right: 110px;
     float: left;
@@ -32,6 +37,7 @@
       height: 100%;
     }
   }
+ 
   .right {
     flex: 1;
     display: flex;
@@ -77,7 +83,7 @@
         width: 150px;
         height: 30px;
         color: white;
-        background-color: #f55c47;
+        background-color: crimson;
         border: none;
         border-radius: 10px;
         font-weight: 500;

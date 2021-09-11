@@ -3,7 +3,6 @@ import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import { SkillBars } from "react-skills";
 import { Container } from "@material-ui/core";
-import SkillBar from 'react-skillbars';
 
 export default function Intro() {
   const textRef = useRef();

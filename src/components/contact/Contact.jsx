@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./contact.scss";
 import TextField from "@material-ui/core/TextField";
-import { Button } from "@material-ui/core";
 import { Twitter, Instagram, Facebook, Reddit } from "@material-ui/icons";
+
 export default function Contact() {
   const [message, setMessage] = useState(false);
 
@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="/images/20943705.jpg" />
+      <img src="https://www.wowwow.co.in/wp-content/uploads/2020/03/Contact-Us-compressor.png" />
       </div>
       <div className="right">
         <h2>Send me a message</h2>
@@ -50,17 +50,17 @@ export default function Contact() {
         </form>
         <div>
           {/* <a href="https://twitter.com/y_enesaras" target="_blank">  */}
-          <a href="https://twitter.com/y_enesaras" target="_blank">
+          <a href="https://twitter.com/y_enesaras" target="_blank" rel="noreferrer">
           <Twitter className="icon" style={{ marginLeft: "10px" }} />
           </a>
-          <a href="https://instagram.com/y.enesaras" target="_blank">
+          <a href="https://instagram.com/y.enesaras" target="_blank" rel="noreferrer">
           <Instagram className="icon" style={{ marginLeft: "10px" }} />
           </a>
-          <a href="https://www.reddit.com/user/yenesaras" target="_blank">
+          <a href="https://www.reddit.com/user/yenesaras" target="_blank" rel="noreferrer">
           <Reddit className="icon" style={{ marginLeft: "10px" }} />
           </a>
           
-          <a href="https://www.facebook.com/yusufenes.aras.5" target="_blank">
+          <a href="https://www.facebook.com/yusufenes.aras.5" target="_blank" rel="noreferrer">
           <Facebook className="icon" style={{ marginLeft: "10px" }} />
           </a>
         </div>

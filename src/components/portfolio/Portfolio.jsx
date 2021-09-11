@@ -107,7 +107,7 @@ export default function Portfolio() {
             component="img"
             alt="Contemplative Reptile"
             width = "150"
-            height="140"
+            height="130"
             src="images/photo-1498050108023-c5249f4df085.png"
             title="Contemplative Reptile"
             // style={useStyles.media}

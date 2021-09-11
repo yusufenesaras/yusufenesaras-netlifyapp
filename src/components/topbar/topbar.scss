@@ -27,19 +27,16 @@
         color: inherit;
         margin-right: 40px;
 
-        @include mobile{
+        @include mobile {
           font-size: 30px;
-        font-weight: 300;
-        margin-right: 0px;
+          font-weight: 300;
+          margin-right: 0px;
+          text-align: center;
 
-        h2{
-          
-          font-size: small;
-
+          h2 {
+            font-size: small;
+          }
         }
-
-        }
-
       }
 
       .itemContainer {
@@ -47,9 +44,8 @@
         align-items: center;
         margin-left: 30px;
 
-        @include mobile{
+        @include mobile {
           display: none;
-          
         }
 
         .icon {
@@ -58,11 +54,10 @@
         }
 
         span {
-          a{
+          a {
             font-size: 15px;
             font-weight: 500;
           }
-      
         }
       }
     }
@@ -79,7 +74,7 @@
         // @include mobile{
         //   visibility: hidden;
         // }
-      
+
         span {
           width: 100%;
           height: 3px;
@@ -110,7 +105,6 @@
           transform: rotate(-45deg);
         }
       }
-
     }
   }
 }
